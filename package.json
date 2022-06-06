@@ -1,0 +1,20 @@
+{
+  "name": "it_academy",
+  "version": "1.0.0",
+  "description": "lesson",
+  "main": "lesson4.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marymgmi/IT_academy.git"
+  },
+  "author": "marymgmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marymgmi/IT_academy/issues"
+  },
+  "homepage": "https://github.com/marymgmi/IT_academy#readme",
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  }
+}
