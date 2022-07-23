@@ -18,5 +18,3 @@ bin-release/
 # information for Eclipse / Flash Builder.
 node_modules/
 .DS_Store
-/Users/maryiahancharova/IT_academy/test/pageobjects
-/Users/maryiahancharova/IT_academy/test/specs/example.e2e.js
