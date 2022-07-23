@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "lesson",
   "main": "lesson4.js",
-  "scripts": {},
+  "scripts": {
+    "wdio": "wdio run wdio.conf.js",
+    "test": "mocha"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marymgmi/IT_academy.git"
@@ -15,6 +18,20 @@
   },
   "homepage": "https://github.com/marymgmi/IT_academy#readme",
   "dependencies": {
-    "fs-extra": "^10.1.0"
+    "assert": "^2.0.0",
+    "fs-extra": "^10.1.0",
+    "mocha": "^10.0.0",
+    "webdriverio": "^7.20.7"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^7.20.7",
+    "@wdio/local-runner": "^7.20.7",
+    "@wdio/mocha-framework": "^7.20.7",
+    "@wdio/spec-reporter": "^7.20.7",
+    "chromedriver": "^103.0.0",
+    "wdio-chromedriver-service": "^7.3.2"
+  },
+  "directories": {
+    "test": "test"
   }
 }
