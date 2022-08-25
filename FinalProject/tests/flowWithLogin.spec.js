@@ -42,7 +42,7 @@ test.describe('Basic functionality with login', () => {
     await page.pause(1000);
     await pageFactory.checkoutPage.deleteButton.click();
     await pageFactory.checkoutPage.confirmDeleteButton.click();
-    await expect(pageFactory.checkoutPage.emptyState).toHaveText('В корзине пусто. Чтобы найти товары, используйте поиск или выберите товары из просмотренных ранее:');
+    await expect(pageFactory.checkoutPage.emptyState).toHaveText(pageFactory.checkoutPage.expectText);
   });
   
   test('Testing adding product to favorite for logged in users', async () => {

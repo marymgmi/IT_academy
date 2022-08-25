@@ -8,6 +8,7 @@ class CheckoutPage extends BasePage {
         this.deleteAllbutton = page.locator("input[name='checkAll']");
         this.confirmDeleteButton = page.locator('.i-button.i-button_danger.i-button_small.remove-yes');
         this.emptyState = page.locator('.i-textual__plain.i-textual__plain_arrow.i-textual__plain_limited');
+        this.expectText = 'В корзине пусто. Чтобы найти товары, используйте поиск или выберите товары из просмотренных ранее:';
 }
 }
 module.exports = CheckoutPage;
